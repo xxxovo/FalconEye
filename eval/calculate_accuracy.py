@@ -40,4 +40,4 @@ columns = [
 # calculate accuracy
 for true_col, pred_col in columns:
     accuracy = (df[true_col] == df[pred_col]).mean()
-    print(f"{true_col} 的准确率: {accuracy * 100:.2f}%")
+    print(f"the accuracy of {true_col} : {accuracy * 100:.2f}%")
