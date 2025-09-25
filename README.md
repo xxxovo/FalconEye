@@ -19,7 +19,6 @@ Falcon evaluates VQA pairs across 13 harm categories:
 - Unethical Behavior
 - Adult Content
 
-- 
 ## Quick Start
 Requirements
 Install dependencies:
