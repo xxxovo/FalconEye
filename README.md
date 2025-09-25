@@ -5,19 +5,21 @@ Falcon is a large-scale, meticulously curated multimodal dataset designed for fi
 ## Harm Categories
 Falcon evaluates VQA pairs across 13 harm categories:
 
-Illegal Activity
-Hate Speech
-Bias
-Fraud
-Politics
-Privacy Violation
-Unlicensed Advice
-Violence and Physical Harm
-Malware
-Economic Harm
-Abuse
-Unethical Behavior
-Adult Content
+- Illegal Activity
+- Hate Speech
+- Bias
+- Fraud
+- Politics
+- Privacy Violation
+- Unlicensed Advice
+- Violence and Physical Harm
+- Malware
+- Economic Harm
+- Abuse
+- Unethical Behavior
+- Adult Content
+
+- 
 ## Quick Start
 Requirements
 Install dependencies:
@@ -25,8 +27,13 @@ Install dependencies:
 pip install -r requirements.txt
 ```
 Hardware
+
 · Minimum: 1 × NVIDIA RTX 4090
+
+
 Usage
+
+
 Download the Falcon dataset and FalconEye model (see Releases or Links).<br>
 Run evaluation or inference scripts as described in the documentation.
 
