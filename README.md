@@ -18,13 +18,6 @@ Economic Harm
 Abuse
 Unethical Behavior
 Adult Content
-Benchmark Results
-Model	Image Acc.	Instruction Acc.	Response Acc.
-FalconEye (Ours)	88.56%	91.00%	94.22%
-Qwen2.5VL-7B	81.44%	76.17%	80.00%
-Beaver-dam	-	-	87.06%
-FalconEye also outperforms GPT-4o and other baselines on multiple datasets (see paper for details).
-
 ## Quick Start
 Requirements
 Install dependencies:
@@ -34,7 +27,7 @@ pip install -r requirements.txt
 Hardware
 · Minimum: 1 × NVIDIA RTX 4090
 Usage
-Download the Falcon dataset and FalconEye model (see Releases or Links).
+Download the Falcon dataset and FalconEye model (see Releases or Links).<br>
 Run evaluation or inference scripts as described in the documentation.
 
 ## License
