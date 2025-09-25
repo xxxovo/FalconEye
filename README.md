@@ -29,10 +29,25 @@ Hardware
 
 · Minimum: 1 × NVIDIA RTX 4090
 
+## Directory Structure
 
-Usage
+This project contains the following key modules:
+
+### `eval/` Evaluation
+
+- **calculate_accuracy.py**  
+  Calculates the overall accuracy of the model on harmful content detection tasks. Compares model predictions with ground truth labels to compute accuracy metrics.
+
+- **calculate_harmcategory_accuracy.py**  
+  Evaluates the model's classification accuracy for each harm category. Supports fine-grained analysis of model performance across different types of harmful content.
+
+### `finetune/` Fine-tuning
+
+- **lora.py**  
+  Script for model fine-tuning using the LoRA (Low-Rank Adaptation) method. Enables efficient fine-tuning of multimodal models on the Falcon dataset to improve performance on harmful content detection.
 
 
+## Usage
 Download the Falcon dataset and FalconEye model (see Releases or Links).<br>
 Run evaluation or inference scripts as described in the documentation.
 
