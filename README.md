@@ -1,4 +1,4 @@
-# Falcon: A Cross-Modal Evaluation Dataset for Comprehensive Safety Perception
+# Falcon: A Fine-Grained Safety Benchmark and Evaluator for Multimodal Large Language Models
 ## Overview
 Falcon is a large-scale, meticulously curated multimodal dataset designed for fine-grained research on safety-related issues in Visual Question Answering (VQA) scenarios. FalconEye is an open-source evaluation model, fine-tuned on Falcon, that specializes in multimodal harm assessment and achieves state-of-the-art performance with efficient inference on a single RTX 4090 GPU.
 
