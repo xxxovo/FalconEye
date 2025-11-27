@@ -49,8 +49,11 @@ Hardware
   An example dataset of the Falcon-test.
 
 ## Usage
-Download the Falcon dataset and FalconEye model (see Releases or Links).<br>
+Download the Falcon dataset and FalconEye model.<br>
 Run evaluation or inference scripts as described in the documentation.
+
+Falcon: https://huggingface.co/datasets/zhangrjjj/Falcon<br>
+FalconEye: https://huggingface.co/zhangrjjj/FalconEye
 
 ## License
 The Falcon dataset is released under the CC BY 4.0 License.
