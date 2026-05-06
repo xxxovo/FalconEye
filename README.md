@@ -55,5 +55,8 @@ Run evaluation or inference scripts as described in the documentation.
 Falcon: https://huggingface.co/datasets/zhangrjjj/Falcon<br>
 FalconEye: https://huggingface.co/zhangrjjj/FalconEye
 
+## Acknowledgments
+We would like to express our gratitude to [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory) for providing the robust and efficient fine-tuning framework used to train the FalconEye model.
+
 ## License
 The Falcon dataset is released under the CC BY 4.0 License.
